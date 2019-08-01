@@ -1,6 +1,14 @@
-.view {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
-    background-size: cover;
+/* load */
+.load-rotate {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px; */
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
 
 body{
@@ -16,3 +24,101 @@ font-family: 'Open Sans', sans-serif;
 .logo-color{
     color: #015eab
 }
+.rgba-black-light, .rgba-black-light:after {
+    background-color: rgba(1, 94, 171, 0.5);
+}
+
+.pipe{
+    border-radius: 50px;
+    width: 30%;
+    height: 100px;
+    background: rgba(1, 94, 171, 0.5)
+}
+.hr-cus{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.87);
+}
+/* card */
+  /*================ features area two css ==============*/
+  .card-hov{
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+  }
+  @media (max-width: 1000px){
+    .card-hov{
+  
+      /* height: 210px; */
+    }
+  }
+
+
+  .card-hov:hover {
+    transform: scale(1.04, 1.04);
+    -webkit-transform: scale(1.04, 1.04);
+    -moz-transform: scale(1.01, 1.04);
+    -o-transform: scale(1.04, 1.04);
+    -ms-transform: scale(1.04, 1.04);
+  }
+  /* .card1{
+    border-radius: 50px;
+    background: #f5161f;
+    color: #fff;
+  } */
+  .card2{
+    border-radius: 30px;
+    background: #015eab;
+    color: #fff;
+    height: 100%
+  }
+  .fixed-card{
+    border-radius: 100px;
+    background: #1d2132;
+    color: #fff;
+    width: 30%;
+  }
+  @media (max-width: 800px){
+   .fixed-card{
+       width: 250px;
+   }
+  }
+  /* headings */
+  .section-title {
+    position: relative
+  }
+  .section-title p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+  .section-title h4 {
+    font-size: 40px;
+    font-weight: 400;
+    /* text-transform: capitalize; */
+    position: relative;
+    padding-bottom: 20px;
+    display: inline-block
+  }
+  .section-title h4:before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #d8d8d8;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40px;
+  }
+  .section-title h4:after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #f32129;
+    left: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+  }
