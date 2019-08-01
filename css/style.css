@@ -1,0 +1,18 @@
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+    background-size: cover;
+}
+
+body{
+    /* font-family: 'Lato', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+font-family: 'Open Sans', sans-serif;
+}
+
+.logo-bg-color{
+    background-color: #015eab;
+    color: white;
+}
+.logo-color{
+    color: #015eab
+}
